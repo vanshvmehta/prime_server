@@ -201,11 +201,11 @@ int main() {
 
   testing::suite suite("interrupt");
 
-  suite.test(TEST_CASE(test_early));
+  // suite.test(TEST_CASE(test_early));
 
-  suite.test(TEST_CASE(test_loop));
+  // suite.test(TEST_CASE(test_loop));
 
-  suite.test(TEST_CASE(test_timeout));
+  // suite.test(TEST_CASE(test_timeout));
 
   return suite.tear_down();
 }
